@@ -78,7 +78,7 @@ public class UserServiceImpl implements UserService {
             userProfileMapper.deleteUserProfile(memberInfo.getUserId());
         } else {
             log.error("deleteId ERROR! {}", memberInfo);
-            throw a RuntimeException("deleteId ERROR! Check the id deletion method\n" + "Params : " + memberInfo);
+            throw new RuntimeException("deleteId ERROR! Check the id deletion method\n" + "Params : " + memberInfo);
         }
     }
 
