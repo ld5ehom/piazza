@@ -44,7 +44,6 @@ public class CategoryController {
     }
 
     // -------------- request --------------
-
     @Setter
     @Getter
     private static class CategoryRequest {
