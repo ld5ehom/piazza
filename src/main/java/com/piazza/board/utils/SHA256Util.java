@@ -21,7 +21,7 @@ public class SHA256Util {
             }
             SHA = sb.toString();
         } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException("Error!", e); //암호화 에러
+            throw new RuntimeException("Error!", e);
         }
         return SHA;
     }
